@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487905372895",
+    "project_id": "rosolpets",
+    "storage_bucket": "rosolpets.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487905372895:android:bd4219441fbf950242576a",
+        "android_client_info": {
+          "package_name": "com.example.rosolpets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUsA1hfZR2ihWx2wT6r-_pgkpcVseWu60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

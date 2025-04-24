@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,10 +12,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RosolPets"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".screens.findSER"
+            android:exported="false" />
+        <activity
+            android:name=".screens.forgott"
+            android:exported="false" />
+        <activity
+            android:name=".data.data.forgetPass"
+            android:exported="false" />
+        <activity
+            android:name=".screens.relatible"
+            android:exported="false" />
+        <activity
+            android:name=".screens.tips"
+            android:exported="false" />
+        <activity
+            android:name=".data.data.camera"
+            android:exported="false" />
+        <activity
+            android:name=".data.data.reviews"
+            android:exported="false" />
+        <activity
+            android:name=".screens.iD"
+            android:exported="false" />
+        <activity
+            android:name=".data.data.homeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".data.data.agrees"
+            android:exported="false" />
+        <activity
+            android:name=".screens.signup"
+            android:exported="false" />
+        <activity
+            android:name=".screens.signinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.Logo"
+            android:exported="false" />
+        <activity
+            android:name=".data.MainActivityLogo"
+            android:exported="false" />
         <activity
             android:name=".data.MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
